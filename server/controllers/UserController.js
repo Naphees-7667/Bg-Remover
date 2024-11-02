@@ -71,3 +71,5 @@ const clerkWebHooks = async (req, res) => {
     res.status(500).json({ success: false, message: "Internal Server Error" });
   }
 };
+
+export { clerkWebHooks };
