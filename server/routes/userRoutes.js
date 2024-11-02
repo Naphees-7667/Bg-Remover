@@ -3,6 +3,6 @@ import { clerkWebHooks } from '../controllers/UserController.js'
 
 const userRouter = express.Router();
 
-userRouter.get('/webhooks',clerkWebHooks);
+userRouter.post('/webhooks',clerkWebHooks);
 
 export default userRouter;
